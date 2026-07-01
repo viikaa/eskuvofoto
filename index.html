@@ -1,12 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="refresh" content="0; url=https://viikaa.github.io/eskuvo/">
-	<title>Bogi és Viktor - 2026.07.25. - Lőjj egy fotót</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bogi és Viktor - 2026.07.25. - Lőjj egy fotót</title>
+  
+  <script>
+    // 1. Grab any query parameters from the current URL (e.g., "?table=4&name=John")
+    const queryParams = window.location.search;
+    
+    // 2. Combine the target URL with the query parameters
+    const destination = "https://viikaa.github.io/eskuvo/" + queryParams;
+    
+    // 3. Redirect the user instantly
+    window.location.replace(destination);
+  </script>
+
+  <noscript>
+    <meta http-equiv="refresh" content="0; url=https://viikaa.github.io/eskuvo/">
+  </noscript>
 </head>
 <body>
-	
+  
 </body>
 </html>
